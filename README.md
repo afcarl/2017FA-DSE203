@@ -16,4 +16,4 @@ For the purpose of this class, we will be using three data sources extensively.
 
 More details regarding installations are available under the "Lectures/Lecture_1/HandsOn" section of this repository.
 
-The data with book reviews can be found at: [reviews_Books](http://jmcauley.ucsd.edu/data/amazon/links.html)
+The book reviews JSON data can be found at: [reviews_Books](http://jmcauley.ucsd.edu/data/amazon/links.html)
