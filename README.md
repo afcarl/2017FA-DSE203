@@ -14,4 +14,4 @@ For the purpose of this class, we will be using three data sources extensively.
 * Asterix DB
 * SOLR DB
 
-More details regarding installations are available under the "Lectures" section of this repository.
+More details regarding installations are available under the "Lectures/Lecture_1/HandsOn" section of this repository.
