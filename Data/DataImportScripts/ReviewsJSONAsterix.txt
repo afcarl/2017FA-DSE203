@@ -1,0 +1,31 @@
+=== Execute the following using AQL ====
+
+use dataverse TinySocial;
+
+create type reviewType as open {
+	REVIEWID: string?,
+	REVIEWERNAME: string?,
+	ASIN: string?,
+	HELPFUL: string?,
+	UNIXREVIEWTIME: string?,
+	REVIEWTEXT: string?,
+	OVERALL: string?,
+	REVIEWTIME: string?,
+	SUMMARY: string?
+}
+
+use dataverse TinySocial;
+drop dataset reviews if exists;
+create external dataset reviews(reviewType)
+    using localfs
+    (("path"="localhost:///Users/ashwinramesh/Documents/UCSD/Fall_2017/DSE_203/reviews_5.json"),
+    ("format"="json"));
+ 
+ === Execute the following using SQL++ ====
+
+  USE TinySocial;
+
+    SELECT VALUE user
+    FROM reviews user;
+
+    								
