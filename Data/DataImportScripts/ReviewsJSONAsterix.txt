@@ -1,6 +1,8 @@
 === Execute the following using AQL ====
 
 use dataverse TinySocial;
+drop dataset reviews if exists;
+drop type reviewType if exists;
 
 create type reviewType as open {
 	REVIEWID: string?,
