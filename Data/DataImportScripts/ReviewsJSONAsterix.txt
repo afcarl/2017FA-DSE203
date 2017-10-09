@@ -5,7 +5,7 @@ drop dataset reviews if exists;
 drop type reviewType if exists;
 
 create type reviewType as open {
-	REVIEWID: string?,
+	REVIEWERID: string?,
 	REVIEWERNAME: string?,
 	ASIN: string?,
 	HELPFUL: string?,
